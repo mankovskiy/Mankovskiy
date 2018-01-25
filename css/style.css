@@ -1,0 +1,169 @@
+* {
+    margin:0; padding:0;
+    font-size:inherit;
+    color:inherit;
+    -webkit-font-smoothing: antialiased;
+}
+button::-moz-focus-inner {padding:0;border:0;}
+a {
+    outline:none;
+    text-decoration:none;
+    background-color:transparent;
+    font-size:11px;
+    color:#2d2a2b ;
+}
+
+img {border:none;}
+html {height: 100%;}
+
+
+body {
+    height: auto !important;
+    min-height: 100%;
+    position: relative;
+    background: #ffffff ;
+    font-size:13px;
+    color: black ;
+}
+header {
+    height: 40px;
+    background: #af2024;
+}
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: auto;
+    display: block;
+
+}
+
+
+
+.background {
+
+    width: 100%;
+    background-image: url("../images/background-img_02.png") ;
+    display: inline-block;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.logo{
+    float: left;
+    margin: 19px 0 21px 0;
+    display:inline-block;
+
+}
+.clearfix{
+    clear: both;
+}
+.fa-facebook{
+    position: fixed; top:262px; right: 0;
+    background-color: #850409;
+    color: white;
+    width: 50px;
+    height: 50px;
+    color: white;
+    display: block;
+    line-height: 50px;
+    text-align: center;
+    font-size: 33px;
+    z-index: 0;
+}
+.fa-twitter{
+    position: fixed; top:312px; right: 0;
+    background-color: #98161b;
+    color: white;
+    width: 50px;
+    height: 50px;
+    color: white;
+    display: block;
+    line-height: 50px;
+    text-align: center;
+    font-size: 33px;
+    z-index: 0;
+}
+h1 {
+    font-family: 'Arvo', serif;
+    font-size: 16px;
+    background: #98161b;
+    color:white;
+    line-height: 70px;
+    padding-left: 18px;
+
+}
+.player{
+
+    width: 710px;
+    background: white;
+    margin: auto;
+    padding-bottom: 128px;
+    margin-bottom: 418px;
+
+}
+.screen{
+    height: 346px;
+    position: relative;
+    width: 567px;
+    text-align: center;
+    background: #e7e7e7;
+    display:inline-block;
+    margin:63px 69px 29px 74px;
+}
+.fa-play{
+    position: absolute; top: 50%; left: 50%;
+    font-size: 54px;
+    color: #98161b;
+    margin-left: -27px;
+    margin-top: -27px;
+
+}
+
+h3{
+    font-family: 'Arvo', serif;
+    font-size: 10px;
+    color: #98161b;
+    margin-left: 74px;
+
+}
+h3::after {
+    content: "- June 26, 2013";
+    clear: both;
+    color: #7d7d7d;
+    display:inline-block;
+    font-family: 'Arvo', serif;
+}
+.line{
+    border-top: dotted 1px #98161b;
+    width: 43px;
+    margin: 16px 0 18px 74px;
+}
+p{
+    font-family: 'Arvo', serif;
+    padding:0 92px 0 78px;
+    color: #98161b;
+    line-height: 12px;
+    font-size: 10px;
+
+
+}
+.menu{
+    display: inline-block;
+    list-style: none;
+    width: 100%;
+
+}
+
+.menu li{
+    width: 100%;
+    float: left;
+    max-width: 12.5%;
+
+
+}
+
+
